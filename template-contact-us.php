@@ -136,21 +136,21 @@
                             <p class="text-center theme-description">We are available 8.00 am to 5.00 pm via fax or telephone. You can also use a quick contact form on the right or visit our office personally.</p>
                             <p class="text-center theme-description">Email us with any questions or inquiries or use our contact data. We would be happy to answer your questions.</p>
                             <br><br>
-                            <form id="contact-form" action="">
+                            <!-- <form id="contact-form" action="">
 
                                 <div class="form-group has-label-animation">
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Your Name*">
-                                    <!-- <label for="fullname" class="animate-label">Name</label> -->
+                                    <!-- <label for="fullname" class="animate-label">Name</label> 
                                 </div>
 
                                 <div class="form-group has-label-animation">
                                     <input type="email" class="form-control" id="email" name="email" placeholder="Your Email*">
-                                    <!-- <label for="Email" class="animate-label">Email</label> -->
+                                    <!-- <label for="Email" class="animate-label">Email</label> 
                                 </div>
 
                                 <div class="form-group has-label-animation">
                                     <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-                                    <!-- <label for="subject" class="animate-label">Subject</label> -->
+                                    <!-- <label for="subject" class="animate-label">Subject</label> 
                                 </div>
 
                                 <div class="form-group">
@@ -163,14 +163,16 @@
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
-
+                                <!-- [contact-form-7 id="1234" title="Contact form 1" html_id="contact-form-1234" html_class="form contact-form"] 
                                 <button type="submit" class="btn btn-primary gene-btn-sq w-100 letter-space form-submit-btn">Send Message</button>
-                            </form>
+                            </form> -->
+                            <?php echo do_shortcode('[contact-form-7 id="86" title="Contact Us" html_id="contact-form"]') ?>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
 
 <?php get_footer(); ?>

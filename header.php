@@ -37,10 +37,27 @@
               <img class="img-fluid" alt="menu img" src="<?php echo get_template_directory_uri(); ?>/assets/images/mobile-menu-icon.png">
             </button>
 
+
+            <?php
+              // wp_nav_menu(
+
+              //     array(
+
+              //         'theme_location' => 'header-menu',
+              //         'menu' => 'main-menu',
+              //         'container' => 'li',
+              //         'menu_class' => 'navbar-nav ml-auto'
+
+
+              //     )
+              // );
+
+            ?>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span> <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                  <a class="nav-link" href="<?php echo get_bloginfo('wpurl'); ?>">Home <span class="sr-only">(current)</span> <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
                 </li>                
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -48,16 +65,16 @@
                     <span class="d-block d-md-none float-right"><i class="fa fa-angle-right mobile-nav-arrow" aria-hidden="true"></i></span>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item nav-link p-3" href="our-team.php">OurTeam <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
-                    <a class="dropdown-item nav-link p-3" href="profile.php">Profile <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
-                    <a class="dropdown-item nav-link p-3" href="technology.php">Technology <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                    <a class="dropdown-item nav-link p-3" href="<?php echo get_bloginfo('wpurl'); ?>/team">OurTeam <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                    <a class="dropdown-item nav-link p-3" href="<?php echo get_bloginfo('wpurl'); ?>/profile">Profile <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                    <a class="dropdown-item nav-link p-3" href="<?php echo get_bloginfo('wpurl'); ?>/technology">Technology <span class="d-block d-md-none float-right mobile-nav-arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-tests.php">Our Tests <span class="d-block d-md-none float-right"><i class="fa fa-angle-right mobile-nav-arrow" aria-hidden="true"></i></span></a>
+                  <a class="nav-link" href="<?php echo get_bloginfo('wpurl'); ?>/our-tests">Our Tests <span class="d-block d-md-none float-right"><i class="fa fa-angle-right mobile-nav-arrow" aria-hidden="true"></i></span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact-us.php">Contact Us <span class="d-block d-md-none float-right"><i class="fa fa-angle-right mobile-nav-arrow" aria-hidden="true"></i></span></a>
+                  <a class="nav-link" href="<?php echo get_bloginfo('wpurl'); ?>/contact-us">Contact Us <span class="d-block d-md-none float-right"><i class="fa fa-angle-right mobile-nav-arrow" aria-hidden="true"></i></span></a>
                 </li>
                 <li class="nav-item d-none d-md-block">
                   <div>

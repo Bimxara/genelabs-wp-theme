@@ -39,9 +39,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <p class="theme-description">DNA contains the blueprint of life, and codes for the molecular machineries that affect all the biological systems that create and maintains life. Reading the sequence of DNA is useful in understanding the structure and function of the cellular machineries, and elucidating the causes of diseases and response to treatments. We use Next Generation Sequencing (NGS) to read the DNA sequence, a platform that enables sequencing of thousands of millions of DNA molecules simultaneously.</p>
-
-                            <p class="theme-description">Genelabs utilizes the NGS workflow of the Genestudio S5 NGS system launched by Thermo Fisher Scientific (USA) in 2018, offers speed, accuracy, and flexibility for different gene panels, tailored to research or disease areas of interest.  The Genestudio S5 uses the Ion Torrent™ technology that has been referenced in over 4,000 publications to date.</p>
+                            <?php the_field('technology_description'); ?>
                         </div>
                     </div>  
                 </div>

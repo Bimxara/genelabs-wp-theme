@@ -39,8 +39,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <h1>Welcome to Laborotary</h1>
-                            <p class="theme-description">Genelabs Medical is a genetic testing laboratory that utilizes cutting-edge technologies for molecular diagnosis in various clinical conditions, as well as for facilitating biological research.</p>
+                            <h1><?php the_field('heading'); ?></h1>
+                            <p class="theme-description"><?php the_field('description'); ?></p>
                         </div>
                     </div>  
                 </div>
@@ -74,7 +74,7 @@
                                         </svg>
                                     </div>   
                                     <div class="vm-txt">
-                                        <p>Our vision is to make advanced genetic testing that is available elsewhere in the word accessible to Sri Lankans, in order to improve the healthcare outcome of our patients and research and development  activities of our academic community.</p>
+                                        <p><?php the_field('our_vision'); ?></p>
                                     </div>                                 
                                 </div>
                                 <div class="col-sm-6  pb-0 pb-sm-4">
@@ -86,7 +86,7 @@
                                         </svg>
                                     </div>   
                                     <div class="vm-txt">
-                                        <p>Our mission is to fulfil the genetic testing requirements of clinical and research communities using latest technologies. We thrive to become the one-stop solution giving a comprehensive service from assay design and testing, to final data interpretation and genetic counselling.</p>
+                                        <p><?php the_field('our_mission'); ?></p>
                                     </div>                                 
                                 </div>
                             </div>  

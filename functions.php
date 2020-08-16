@@ -18,4 +18,14 @@ function addjs(){
 }
 add_action('wp_enqueue_scripts', 'addjs');
 
+add_theme_support('menus');
+
+
+register_nav_menus(
+	array(
+		'header-menu' => __('Header Menu', 'theme'),
+	)
+
+);
+
 ?>
